@@ -1,0 +1,27 @@
+{
+  "name": "front-test-domicilios-back",
+  "version": "1.0.0",
+  "description": "Back para el modulo de publicaciones, prueba de domicilios.com",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/santiag8/front-test-domicilios-back.git"
+  },
+  "author": "Santiago Rodriguez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/santiag8/front-test-domicilios-back/issues"
+  },
+  "homepage": "https://github.com/santiag8/front-test-domicilios-back#readme",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "thinky": "^2.3.8"
+  }
+}
