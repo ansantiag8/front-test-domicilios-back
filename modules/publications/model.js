@@ -6,7 +6,12 @@ let publications = db.thinky.createModel('publications', {
   id: type.string(),
   publication: type.string(),
   user: type.string(),
-  createDate: type.date().default(r.now())
+  createDate: type.date().default(r.now()),
+  reactions: type.array().schema(type.object().schema({
+    react: type.string(),
+    createDate: type.date(),
+    user: type.string()
+  }))
   // id: type.string(),
   // createdAt: type.date().default(r.now()),
   // geometry: type.object().schema({
